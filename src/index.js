@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import Posts from "./pagination/Posts";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Posts />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
